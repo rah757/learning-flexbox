@@ -98,17 +98,16 @@
     color: rgba(232, 226, 226, 0.925);
     font-weight: 500;
     font-size: 16.5px;
-    paddi
 }
  
- .commend{
-     flex-basis: 100%;
-     font-size: 27px;
-     font-weight: 510;
-     color: white;
-     font-weight:700;
-     margin-top: -10px;
-     margin-bottom:10px;
+.commend{
+    flex-basis: 100%;
+    font-size: 27px;
+    font-weight: 510;
+    color: white;
+    font-weight:700;
+    margin-top: -10px;
+    margin-bottom: 10px;
  }
  
 
