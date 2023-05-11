@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Hanken';
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 *{
-    font-family: sans-serif;
+    font-family: 'Hanken', sans-serif;
 }
 
 
@@ -18,9 +26,8 @@
 .mainbox{
     display: flex;
     border: 5px solid blue;
-    max-width: 650px;
-    min-height: 450px;
-    max-height: 500px;
+    max-width: 680px;
+    height: 475px;
     border-radius: 40px;
 }
 
@@ -35,6 +42,7 @@
 .leftbox{
     border-radius: 30px;
     border: 2px solid black;
+    background-color: violet;
 }
 
 .circle-container{
@@ -43,13 +51,15 @@
     align-items: center;
     height: 220px;
     flex:1 0 100%;
+    margin-bottom: 5px;
+    margin-top: -20px;
 }
 
 
 .circle{
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 2px solid black;
     display: flex;
@@ -59,22 +69,48 @@
 }
 
 .big{
-    font-size: 69px;
-    font-weight: bold;
+    font-size: 62px;
     margin-bottom: 0px;
     margin-top: 10px;
+    color: white;
+    font-weight: 900;
 }
 
 
 .smol{
-    font-size: 18px;
-    opacity: 0.5;
-    margin-top: -10px;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: -8px;
+    color: white;
 }
 
 .top{
     flex:1 0 100%;
+    font-size: 22px;
+    font-weight: 800;
+    color: rgba(232, 226, 226, 0.925);
+    opacity: 0.8;
+    padding-top: 5px;
 }
+
+.message{
+    flex-basis: 100%;
+    color: rgba(232, 226, 226, 0.925);
+    font-weight: 500;
+    font-size: 16.5px;
+    paddi
+}
+ 
+ .commend{
+     flex-basis: 100%;
+     font-size: 27px;
+     font-weight: 510;
+     color: white;
+     font-weight:700;
+     margin-top: -10px;
+     margin-bottom:10px;
+ }
+ 
 
 .button{
     background-color: grey;
@@ -109,7 +145,6 @@
     min-width: 250px;
     border-radius: 10px;
 }
-
 
 
 
