@@ -4,12 +4,15 @@
 
 
 .outline{
-    border: 10px solid goldenrod;
-    min-height: 93.5vh;
+    min-height: 96vh;
     min-width: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.attribution{
+    max-height: 3vh;
 }
 
 .mainbox{
@@ -74,7 +77,7 @@
 }
 
 .button{
-    background-color: aqua;
+    background-color: grey;
     flex-basis: 100%;
     padding:10px 10px;
     margin: 25px;
