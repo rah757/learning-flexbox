@@ -65,7 +65,16 @@
     flex:1 0 100%;
 }
 
-
+.button{
+    background-color: aqua;
+    flex-basis: 100%;
+    padding:10px 10px;
+    margin: 25px;
+    height: 50px;
+    min-width: 150px;
+    border-radius: 30px;
+    align-self:self-end;
+}
 
 
 
