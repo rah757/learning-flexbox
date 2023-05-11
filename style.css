@@ -1,0 +1,17 @@
+.outline{
+    border: 10px solid goldenrod;
+    min-height: 93.5vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox{
+    display: flex;
+    border: 10px solid blue;
+    max-width: 750px;
+    
+    
+}
+
