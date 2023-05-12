@@ -127,6 +127,7 @@
 
 .button:hover{
     background: hsl(224, 30%, 27%);
+    cursor: pointer;
 }
 
 
@@ -136,6 +137,7 @@
     justify-content: flex-start;
     padding-left: 13%;
     align-items: flex-end;
+    font-weight: 500;
 }
 
 .rb-stats{
