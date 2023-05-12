@@ -7,7 +7,7 @@
   
 
 *{
-    font-family: 'Hanken', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 
@@ -25,10 +25,10 @@
 
 .mainbox{
     display: flex;
-    border: 5px solid blue;
     max-width: 680px;
     height: 475px;
     border-radius: 40px;
+    box-shadow: 5px 10px 5px 10px rgb(245, 245, 245);
 }
 
 .box{
@@ -41,8 +41,7 @@
 
 .leftbox{
     border-radius: 30px;
-    border: 2px solid black;
-    background-color: violet;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .circle-container{
@@ -61,11 +60,11 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%,1),hsla(256, 72%, 46%,0));   
 }
 
 .big{
@@ -73,7 +72,7 @@
     margin-bottom: 0px;
     margin-top: 10px;
     color: white;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 
@@ -87,7 +86,7 @@
 .top{
     flex:1 0 100%;
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 700;
     color: rgba(232, 226, 226, 0.925);
     opacity: 0.8;
     padding-top: 5px;
@@ -97,7 +96,7 @@
     flex-basis: 100%;
     color: rgba(232, 226, 226, 0.925);
     font-weight: 500;
-    font-size: 16.5px;
+    font-size: 17px;
 }
  
 .commend{
@@ -112,7 +111,7 @@
  
 
 .button{
-    background-color: grey;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     flex-basis: 100%;
     padding:10px 10px;
     margin: 25px;
@@ -120,15 +119,31 @@
     min-width: 250px;
     border-radius: 30px;
     align-self:self-end;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+
+.button:hover{
+    background: hsl(224, 30%, 27%);
 }
 
 
 .rb-header{
     flex-basis: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 13%;
+    align-items: flex-end;
 }
 
 .rb-stats{
     flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width: 500px;
 }
 
 .rb-button{
@@ -143,11 +158,50 @@
     height: 50px;
     min-width: 250px;
     border-radius: 10px;
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+
+.sbutton.a{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%);
+}
+
+.sbutton.b{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: hsla(39, 100%, 56%);
+}
+
+.sbutton.c{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color:hsla(166, 100%, 37%);
+}
+
+.sbutton.d{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsla(234, 85%, 45%);
 }
 
 
 
+.bf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+
+.left{
+    min-width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left2{
+    min-width: 69px;
+}
 
 
 

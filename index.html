@@ -7,7 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +19,6 @@
 <div class="mainbox">
   <div class="box leftbox">
     <p class="top">Your Result</p>
-    
 
     <div class="circle-container">
       <div class="circle">
@@ -42,10 +43,22 @@
 
 
     <div class="rb-stats"> <!-- stats of the results -->
-      <button class="sbutton">Reaction 80 / 100</button>
-      <button class="sbutton">Memory 92 / 100</button>
-      <button class="sbutton">Verbal 61 / 100</button>
-      <button class="sbutton">Visual 72 / 100</button>
+      <button class="sbutton a bf">
+        <span class="left"><img src="./assets/images/icon-reaction.svg">  Reaction</span>
+        <span class="right" style="color:gray"><b style="color:black">80</b> / 100</span> 
+      </button>
+      <button class="sbutton b bf">
+        <span class="left"><img src="./assets/images/icon-memory.svg">  Memory</span>
+        <span class="right" style="color:gray"><b style="color:black">92</b> / 100</span> 
+      </button>
+      <button class="sbutton c bf">
+        <span class="left left2"><img src="./assets/images/icon-verbal.svg">  Verbal</span>
+        <span class="right" style="color:gray"><b style="color:black">61</b> / 100</span> 
+      </button>
+      <button class="sbutton d bf">
+        <span class="left left2"><img src="./assets/images/icon-visual.svg">  Visual</span>
+        <span class="right" style="color:gray"><b style="color:black">72</b> / 100</span> 
+      </button>
     </div>
 
 
