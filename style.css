@@ -236,7 +236,7 @@ body{
 
 
     .mainbox{
-        margin-top: -20px;
+        margin-top: 0px;
         margin-left: -10px;
         /* margin-right: -10px; */
         box-shadow: none;
@@ -266,6 +266,8 @@ body{
         padding-top: 0px;
     }
 
-    .button{}
+    .sbutton{
+        flex-basis: 85%;
+    }
 
 }
