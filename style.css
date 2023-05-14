@@ -225,7 +225,7 @@ body{
 
     body{
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-end;
         min-height: 100vh;
         min-width: 100vw;
         padding-top: 0px;
