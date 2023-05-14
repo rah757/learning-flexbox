@@ -10,17 +10,20 @@
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-
-.outline{
-    min-height: 96vh;
-    min-width: 100vh;
+body{
+    min-height:85vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    min-width: 95vh;
+    padding-top: 10vh;
 }
 
 .attribution{
     max-height: 3vh;
+    align-self: flex-end;
+    flex-basis: 95%;
 }
 
 .mainbox{
@@ -213,3 +216,51 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+@media (max-width: 375px){
+
+    body{
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-height: 100vh;
+        min-width: 100vw;
+        padding-top: 0px; 
+        flex: none;
+    }
+
+
+    .mainbox{
+        box-shadow: none;
+        flex-direction: column;
+        max-width: 100vw;
+        height: 100vw;
+    }
+
+
+    .leftbox{
+        height: auto;
+        border-radius: 0 0 2rem 2rem;
+        min-width: 100vw;
+    }
+
+    .rightbox{
+        width: 100%;
+        height: auto;
+        min-width: 100vw;
+    }
+
+    .attribution{
+        display: none;
+    }
+
+    .top{
+        padding-top: 0px;
+    }
+
+    .button{}
+
+}
