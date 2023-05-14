@@ -270,4 +270,8 @@ body{
         flex-basis: 85%;
     }
 
+    .button{
+        min-width: 300px;
+    }
+
 }
